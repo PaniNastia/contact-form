@@ -28,7 +28,7 @@ function App() {
   const [loading, setLoading] = useState(false)
 
   const validateForm = () => {
-    const { name, phone, email, message } = fieldsValid;
+    const { name, phone, email } = fieldsValid;
     setFormValid(name && (phone || email))
   }
 
