@@ -93,6 +93,7 @@ function App() {
   return (
 
     <div className="Contact">
+      <h2>Formularz do kontaktu z producentem</h2>
       <div className="Contact-main">
         {resultMessage.length > 0 ? (
           <div className="Contact-main_form info">

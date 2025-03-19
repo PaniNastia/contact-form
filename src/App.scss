@@ -6,6 +6,16 @@ body {
     margin: 3em 20%;
 }
 
+body, * {
+    font-family: Calibri, 'Lato', Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 0.8em;
+    //padding-left: 0.3em;
+}
+
 .text-danger {
     color: $alert !important;
 }
